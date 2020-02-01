@@ -9,10 +9,15 @@ import CounterFive from './Components/Chapter05/CounterFive'
 import Countersix from './Components/Chapter06/Countersix';
 import CounterSeven from './Components/Chapter07/CounterSeven';
 import CounterEight from './Components/Chapter08/CounterEight';
+import CounterNine from './Components/Chapter09/CounterNine';
+
+import CounterTen from './Components/Chapter10/CounterTen'
 
 function App() {
   return (
     <div className="App">
+      <CounterTen/>
+      <CounterNine />
       <CounterEight/>
       <CounterSeven/>
       <Countersix/>
